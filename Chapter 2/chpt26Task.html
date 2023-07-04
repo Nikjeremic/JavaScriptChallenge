@@ -8,9 +8,54 @@
 
 
   </head>
+  <style>
+    .wrapper{
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 100% 100% 100%;
+      padding: 5%;
+    }
+    .inch{
+      justify-content: center;
+      justify-self: center;
+      align-items: center;
+      align-content: center;
+      padding: 1%;
+    }
+    .funts{
+      justify-content: center;
+      justify-self: center;
+      align-items: center;
+      align-content: center;
+      padding: 1%;
+    }
+    .btn{
+      justify-content: center;
+      justify-self: center;
+      align-items: center;
+      align-content: center;
+      width: 20%;
+    }
+    .h1{
+      justify-content: center;
+      justify-self: center;
+      align-items: center;
+      align-content: center;
+    }
+  </style>
     <body>
-      
- 
+      <div class="wrapper">
+        <div class="inch">
+          <label for="inches">Inches Height </label><input type="text" class="inches" id="inches" value="">
+        </div>
+        <div class="funts">
+          <label for="funt">Funts Weight </label><input type="text" class="funt" id="funt" value="">      
+        </div>
+        <input type="submit" value="CALCULATE" class="btn">
+      </div>
+      <div class="result">
+
+      </div> 
    <script src="chpt26Task.js"></script>
     </body>
 </html>
