@@ -21,7 +21,7 @@ button.addEventListener('click', function(){
     h1Weight.classList.add('h1')
     result.appendChild(h1Height)
     result.appendChild(h1Weight)
-
+    
 
 })
 
