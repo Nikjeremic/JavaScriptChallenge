@@ -15,3 +15,19 @@ for(let n = 0; n < arr.length; n++){
     arr[n] = 'Welcome ' + arr[n]
 }
 console.log(arr)
+
+// EXERCISE
+let myArr = []
+const row = [];
+
+
+for (let i = 0; i < 65; i++){
+    myArr.push([])
+    console.log(myArr)
+    for(let m = 0; m < 4; m++){
+        myArr[i].push(m)
+        console.table(myArr)
+    }
+    
+}
+// Not completed, I will get back once i cover functions.
